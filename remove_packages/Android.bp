@@ -1,0 +1,27 @@
+android_app_import {
+     name: "RemovePackages",
+     apk: "DebloatDummy.apk",
+     presigned: true,
+     preprocessed: true,
+ 
+     overrides: [
+      "Glimpse",
+      "ExactCalculator",
+      "AudioFX",
+      "Etar",
+      "SeedVault",
+      "Recorder",
+      "Profiles",
+      "Twelve",
+      "Jelly",
+      "DeskClock",
+      "Contacts",
+      "DocumentsUI",
+      "Messaging",
+      "Dialer",
+     ],
+ 	dex_preopt: {
+ 		enabled: false,
+ 	},
+ 	privileged: true,
+ }
